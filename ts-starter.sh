@@ -442,8 +442,7 @@ echo "{
     \"compilerOptions\": {
         \"target\": \"es2022\",
         \"module\": \"es2022\",
-        \"esModuleInterop\": true
-        \"forceConsistentCasingInFileNames\": true
+        \"esModuleInterop\": true,
         \"strict\": true,
         \"skipLibCheck\": true
     }
