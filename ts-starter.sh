@@ -13,7 +13,7 @@ mkdir ~/Desktop/webdev/$projectName
 cd ~/Desktop/webdev/$projectName
 
 mkdir css src assets
-touch index.html css/style.css css/reset.css css/variables.css src/index.ts src/tsconfig.json README.md
+touch index.html css/style.css css/reset.css css/variables.css src/app.ts src/tsconfig.json README.md
 
 
 echo "-----------------------------------"
@@ -51,7 +51,7 @@ echo "<!DOCTYPE html>
 <footer>
     <p>&copy; $projectName</p>
 </footer>
-    <script src=\"src/index.js\" type=\"module\"></script>
+    <script src=\"src/app.js\" type=\"module\"></script>
 </body>
 </html>" > index.html
 
